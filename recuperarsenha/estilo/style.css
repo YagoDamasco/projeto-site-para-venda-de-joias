@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #F5EBE1;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+input , label {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    color: black;
+    width: 50px;
+    height: 25px;
+}
+
+input[type="email"] {
+    padding: 8px;
+    width: 100%;
+  }
+  
+.btn{
+    display: flex;
+}
+.btn a{
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+}
